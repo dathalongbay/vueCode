@@ -4,7 +4,7 @@
             <h2>Contact Me</h2>
             <form action="mailto:alloyking1@gmail.com" method="post" enctype="text/plain">
                 <div class="form-group">
-                    <input type="email" class="form-control" v-model="contact.eamil" placeholder="Enter email">
+                    <input type="email" class="form-control" v-model="contact.email" placeholder="Enter email">
                 </div>
                 <div class="form-group">
                     <textarea class="form-control" v-model="contact.message" rows="3" placeholder="write message"></textarea>

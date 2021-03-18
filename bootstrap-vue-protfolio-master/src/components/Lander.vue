@@ -97,6 +97,7 @@ import talk from './Contact.vue'
 export default {
     name:'Lander',
     components:{
+      // khai báo các component con
         talk
     }  
 }

@@ -63,6 +63,8 @@ export default {
       console.log(this.todoList);
    },
    toggle: function(todo) {
+      // nếu là true thì chuyển về false
+     // nếu là false thì chuyển về true
       todo.complete = !todo.complete;
    }
  },
